@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body {
+    background-color: #23252C;
+}
+
+img {
+    width: 317px;
+    height: 317px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.email-link {
+    text-decoration: none;
+}
+
+.li-link {
+    text-decoration: none;
+}
+
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 317px;
+    background: #1A1B21;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 21px;
+    margin-bottom: 0px;
+}
+
+h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+/* identical to box height, or 15px */
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.button-container {
+    max-width: 317px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    cursor: default;
+    text-decoration: none;
+}
+
+.email {
+    background: white;
+    color: black;
+    margin: 10px;
+    height: 35px;
+    width: 115px;
+    border: none;
+    border-radius: 3px;
+}
+
+button > .email-button {
+    background: white;
+    margin-left: 18px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+}
+
+.email-icon {
+    width: 16px;
+    height: 16px;
+    padding: 0px;
+    background: white;
+}
+
+.linkedin {
+    background: #5093E2;
+    color: white;
+    margin: 10px;
+    height: 35px;
+    width: 115px;
+    border: none;
+    border-radius: 3px;
+    cursor: default;
+    text-decoration: none;
+}
+
+.linkedin-button {
+    background: #5093E2;
+    padding: 7px 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.linkedin-small {
+    width: 16px;
+    height: 16px;
+    background: #5093E2;
+    
+    
+}
+
+.about-heading, .interests-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    text-align: left;
+    margin-top: 33px;
+    margin-bottom: 0px;
+    padding-left: 35px;
+    padding-bottom: 0px;
+    background: #1A1B21;
+}
+
+.about-p, .interests-p {
+    max-width: 317px;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    margin-top: 5px;
+    padding-top: 0px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: #DCDCDC;
+    background: #1A1B21;
+}
+
+.about-section {
+    background: #1A1B21;
+    max-width: 317px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.interests-section {
+    background: #1A1B21;
+    max-width: 317px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.footer-container {
+    background: #161619;
+    max-width: 317px;
+    padding-left: 33px;
+    padding-right: 33px;
+    max-height: 64px;
+    display: flex;
+    min-width: 317px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.linkedin-icon {
+    width: 25px;
+    height: 60px;
+    background: #161619;
+    
+}
+
+//.fb-icon {
+//    width: 25px;
+//    height: 60px;
+//    background: #161619;
+//}
+//
+//.insta-icon {
+//    width: 25px;
+//    height: 60px;
+//}
+
+.gh-icon {
+    width: 25px;
+    height: 60px;
+}
